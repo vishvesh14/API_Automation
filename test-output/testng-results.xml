@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7062" started-at="2020-01-14T16:48:23 IST" finished-at="2020-01-14T16:48:30 IST">
+  <suite name="Default suite" duration-ms="2730" started-at="2020-01-16T13:56:54 IST" finished-at="2020-01-16T13:56:56 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7062" started-at="2020-01-14T16:48:23 IST" finished-at="2020-01-14T16:48:30 IST">
-      <class name="basicsDelete">
-        <test-method status="PASS" signature="test()[pri:0, instance:basicsDelete@58c1670b]" name="test" duration-ms="6950" started-at="2020-01-14T16:48:23 IST" finished-at="2020-01-14T16:48:30 IST">
+    <test name="Default test" duration-ms="2730" started-at="2020-01-16T13:56:54 IST" finished-at="2020-01-16T13:56:56 IST">
+      <class name="basicDataDriven">
+        <test-method status="PASS" signature="getData()[pri:0, instance:basicDataDriven@1500955a]" name="getData" is-config="true" duration-ms="20" started-at="2020-01-16T13:56:54 IST" finished-at="2020-01-16T13:56:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="test()[pri:0, instance:basicDataDriven@1500955a]" name="test" duration-ms="2672" started-at="2020-01-16T13:56:54 IST" finished-at="2020-01-16T13:56:56 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- basicsDelete -->
+      </class> <!-- basicDataDriven -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
