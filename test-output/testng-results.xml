@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2730" started-at="2020-01-16T13:56:54 IST" finished-at="2020-01-16T13:56:56 IST">
+  <suite name="Default suite" duration-ms="2378" started-at="2020-04-13T18:50:55 IST" finished-at="2020-04-13T18:50:57 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2730" started-at="2020-01-16T13:56:54 IST" finished-at="2020-01-16T13:56:56 IST">
+    <test name="Default test" duration-ms="2378" started-at="2020-04-13T18:50:55 IST" finished-at="2020-04-13T18:50:57 IST">
       <class name="basicDataDriven">
-        <test-method status="PASS" signature="getData()[pri:0, instance:basicDataDriven@1500955a]" name="getData" is-config="true" duration-ms="20" started-at="2020-01-16T13:56:54 IST" finished-at="2020-01-16T13:56:54 IST">
+        <test-method status="PASS" signature="getData()[pri:0, instance:basicDataDriven@1500955a]" name="getData" is-config="true" duration-ms="12" started-at="2020-04-13T18:50:55 IST" finished-at="2020-04-13T18:50:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getData -->
-        <test-method status="PASS" signature="test()[pri:0, instance:basicDataDriven@1500955a]" name="test" duration-ms="2672" started-at="2020-01-16T13:56:54 IST" finished-at="2020-01-16T13:56:56 IST">
+        <test-method status="PASS" signature="test()[pri:0, instance:basicDataDriven@1500955a]" name="test" duration-ms="2335" started-at="2020-04-13T18:50:55 IST" finished-at="2020-04-13T18:50:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
