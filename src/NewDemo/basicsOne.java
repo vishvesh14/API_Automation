@@ -1,16 +1,17 @@
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.*;
 
+
+//All the body payload is in this code itself.
 public class basicsOne {
 	
-	public void TestOne() {
+	public static void main(String[] args){
 		
 		//BaseUrl
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		
-		given().queryParam("name","Frontline house").header("Content-Type","JSON")
+		given().log().all().queryParam("key","qaclick123").header("Content-Type","application/json")
 		.body("{\r\n" + 
 				"  \"location\": {\r\n" + 
 				"    \"lat\": -38.383494,\r\n" + 
@@ -24,12 +25,12 @@ public class basicsOne {
 				"    \"shoe park\",\r\n" + 
 				"    \"shop\"\r\n" + 
 				"  ],\r\n" + 
-				"  \"website\": \"http://google.com\",\r\n" + 
+				"  \"website\": \"http://rahulshettyacademy.com\",\r\n" + 
 				"  \"language\": \"French-IN\"\r\n" + 
 				"}\r\n" + 
 				"")
-		
-		.when().post("/maps/api/place/get/json")
+		.when().post("/maps/api/place/add/json")
+		.then().log().all().assertThat().statusCode(200).body("scope", equalTo ("APP"))
+		.header("Server", "Apache/2.4.18 (Ubuntu)");
 	} 
-
 }
