@@ -1,6 +1,6 @@
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
 import io.restassured.RestAssured;
+import static org.hamcrest.Matchers.*;
 
 
 //In this Test the payload in the body is taken from the SetupFiles package to have a clean look.

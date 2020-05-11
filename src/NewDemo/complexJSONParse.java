@@ -27,6 +27,17 @@ public class complexJSONParse {
 			int price = js2.get("courses["+i+"].price");
 			System.out.println(price);
 		}
+		
+		//Print price if title is RPA
+		for(int i = 0; i<totalCourses; i++){
+			String course1 = js2.get("courses["+i+"].title");
+			if (course1.equalsIgnoreCase("RPA")) {
+				int price = js2.getInt("courses["+i+"].price");
+				System.out.println("price");
+			}
+		}
+		
+		
 	}
 
 }
