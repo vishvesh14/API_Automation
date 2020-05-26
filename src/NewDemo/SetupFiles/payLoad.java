@@ -46,4 +46,15 @@ public class payLoad {
 				"   ]\r\n" + 
 				"}";
 	}
+	
+	public static String addBookData(String isbn, String aisle) {
+		String bookDetails = "{\r\n" + 
+				"	\"name\":\"Learn Appium Automation with Java 4\",\r\n" + 
+				"	\"isbn\":\""+isbn+"\",\r\n" + 
+				"	\"aisle\":\""+aisle+"\",\r\n" + 
+				"	\"author\":\"John foe\"\r\n" + 
+				"}\r\n" + 
+				"";
+		return bookDetails;
+	}
 }
