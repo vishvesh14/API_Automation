@@ -6,7 +6,7 @@ import static org.hamcrest.Matchers.*;
 
 import static io.restassured.RestAssured.*;
 
-public class DynamicJSON {
+public class DynamicJSON_parameterization {
 	
 	@Test
 	public void AddBook() {
