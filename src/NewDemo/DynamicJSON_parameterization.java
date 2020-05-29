@@ -6,6 +6,7 @@ import static org.hamcrest.Matchers.*;
 
 import static io.restassured.RestAssured.*;
 
+//When you have a dynamic JSON where the values are changing use this method.
 public class DynamicJSON_parameterization {
 	
 	@Test
