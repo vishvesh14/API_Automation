@@ -16,7 +16,7 @@ public class StaticJson {
 		//PostData
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		String capturedResponse = given().header("Content-Type","application/json")
-		.body(GenerateStringFromResource("C:\\Users\\vishvesh.sawant\\Desktop\\API_Automation\\TestFiles\\AddBookDetails.json"))
+		.body(GenerateStringFromResource("C:\\Users\\Vishvesh Savant\\Desktop\\API Automation Docs\\TestFiles\\AddBookDetails.json"))
 		.when().post("/Library/Addbook.php")
 		.then().assertThat().statusCode(200)
 		.extract().response().asString();

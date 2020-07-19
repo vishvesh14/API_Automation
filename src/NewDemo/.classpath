@@ -1,80 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="SetupFiles/" kind="src" path=""/>
-	<classpathentry kind="src" path="SetupFiles"/>
+	<classpathentry excluding="setupFiles/" kind="src" path=""/>
+	<classpathentry kind="src" path="setupFiles"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-path-4.3.0/docs/json-path-4.3.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-path-4.3.0/docs/json-path-4.3.0-sources.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-path-4.3.0/docs/rest-assured-common-4.3.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-path-4.3.0/docs/rest-assured-common-4.3.0-sources.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-path-4.3.0/commons-lang3-3.4.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-path-4.3.0/groovy-3.0.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-path-4.3.0/groovy-json-3.0.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-path-4.3.0/json-path-4.3.0.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/docs/json-schema-validator-4.3.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/docs/json-schema-validator-4.3.0-sources.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/activation-1.1.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/btf-1.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/guava-16.0.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/hamcrest-2.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/jackson-annotations-2.10.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/jackson-core-2.10.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/jackson-coreutils-1.9.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/jackson-databind-2.10.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/joda-time-2.9.7.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/jopt-simple-5.0.3.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/json-schema-core-1.2.10.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/json-schema-validator-2.2.10.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/json-schema-validator-4.3.0.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/jsr305-3.0.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/libphonenumber-8.0.0.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/mailapi-1.4.3.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/msg-simple-1.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/rhino-1.7.7.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/json-schema-validator-4.3.0-dist/uri-template-0.9.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/docs/json-path-4.3.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/docs/json-path-4.3.0-sources.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/docs/rest-assured-4.3.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/docs/rest-assured-4.3.0-sources.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/docs/rest-assured-common-4.3.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/docs/rest-assured-common-4.3.0-sources.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/docs/xml-path-4.3.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/docs/xml-path-4.3.0-sources.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/activation-1.1.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/commons-lang3-3.4.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/groovy-3.0.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/groovy-json-3.0.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/groovy-xml-3.0.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/hamcrest-2.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/httpclient-4.5.3.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/httpcore-4.4.6.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/httpmime-4.5.3.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/jakarta.activation-api-1.2.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/jakarta.xml.bind-api-2.3.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/jaxb-osgi-2.3.0.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/org.apache.sling.javax.activation-0.1.0.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/rest-assured-4.3.0.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/tagsoup-1.2.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/docs/rest-assured-common-4.3.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/docs/rest-assured-common-4.3.0-sources.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/docs/xml-path-4.3.0-javadoc.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/docs/xml-path-4.3.0-sources.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/activation-1.1.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/commons-lang3-3.4.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/groovy-3.0.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/groovy-xml-3.0.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/jakarta.activation-api-1.2.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/jakarta.xml.bind-api-2.3.2.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/jaxb-osgi-2.3.0.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/org.apache.sling.javax.activation-0.1.0.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/tagsoup-1.2.1.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/xml-path-4.3.0-dist/xml-path-4.3.0.jar"/>
-	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/testng-7.1.0.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json path 4.3 dist/docs/json-path-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json path 4.3 dist/docs/json-path-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json path 4.3 dist/docs/rest-assured-common-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json path 4.3 dist/docs/rest-assured-common-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json path 4.3 dist/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json path 4.3 dist/groovy-3.0.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json path 4.3 dist/groovy-json-3.0.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json path 4.3 dist/json-path-4.3.0.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/docs/json-schema-validator-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/docs/json-schema-validator-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/btf-1.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/guava-16.0.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/jackson-annotations-2.10.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/jackson-core-2.10.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/jackson-coreutils-1.9.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/jackson-databind-2.10.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/joda-time-2.9.7.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/jopt-simple-5.0.3.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/json-schema-core-1.2.10.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/json-schema-validator-2.2.10.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/json-schema-validator-4.3.0.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/jsr305-3.0.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/libphonenumber-8.0.0.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/mailapi-1.4.3.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/msg-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/rhino-1.7.7.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/json scheme validator 4.3 dist/uri-template-0.9.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/docs/json-path-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/docs/json-path-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/docs/rest-assured-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/docs/rest-assured-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/docs/rest-assured-common-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/docs/rest-assured-common-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/docs/xml-path-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/docs/xml-path-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/groovy-3.0.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/groovy-json-3.0.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/groovy-xml-3.0.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/hamcrest-2.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/jakarta.activation-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/jakarta.xml.bind-api-2.3.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/jaxb-osgi-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/org.apache.sling.javax.activation-0.1.0.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/rest-assured-4.3.0.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/docs/rest-assured-common-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/docs/rest-assured-common-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/docs/xml-path-4.3.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/docs/xml-path-4.3.0-sources.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/groovy-3.0.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/groovy-xml-3.0.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/jakarta.activation-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/jakarta.xml.bind-api-2.3.2.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/jaxb-osgi-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/org.apache.sling.javax.activation-0.1.0.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/xml path 4.3 dist/xml-path-4.3.0.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/jcommander-1.78.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/TestNG/testng-7.1.0.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/POJO Classes/gson-2.8.5.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/POJO Classes/jackson-annotations-2.9.9.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/POJO Classes/jackson-core-2.9.9.jar"/>
+	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/POJO Classes/jackson-databind-2.9.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
