@@ -1,25 +1,28 @@
 
 import static io.restassured.RestAssured.given;
 
+import java.util.List;
+
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
+import pojoClassesDemo.Api;
 import pojoClassesDemo.GetCourse;
 
 public class OAuth {
 
 	public static void main(String[] args) throws InterruptedException {
-	//Direct URL is taken because now the auth cannot be automated, since the 2020 google update
-		///String url ="https://rahulshettyacademy.com/getCourse.php?state=verifyfjdss&code=4%2FvAHBQUZU6o4WJ719NrGBzSELBFVBI9XbxvOtYpmYpeV47bFVExkaxWaF_XR14PHtTZf7ILSEeamywJKwo_BYs9M&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&session_state=0c32992f0d47e93d273922018ade42d1072b9d1f..a35c&prompt=none#";
-		String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F2AEvFG5pdeJLMgYclP62ehLd46F2lHe32eXod2adPisl4ixsTV_IOXtI54-busAHbNOZS5qjKdgBnT0IOAHp2Oc&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none#";
-		
+		//Direct URL is taken because now the auth cannot be automated, since the 2020 google update
+		//String url ="https://rahulshettyacademy.com/getCourse.php?state=verifyfjdss&code=4%2FvAHBQUZU6o4WJ719NrGBzSELBFVBI9XbxvOtYpmYpeV47bFVExkaxWaF_XR14PHtTZf7ILSEeamywJKwo_BYs9M&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&session_state=0c32992f0d47e93d273922018ade42d1072b9d1f..a35c&prompt=none#";
+		//Below URL is unique all the time, copy and paste the GetCode endpooint url in browser and sign in to google and once logged in, copy the URL from the browser
+		String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F2AGI08hTCTjFAlIzJjNei0hSPmu8tMEMa0jFpqKpyEB5aoYXsueYITQy-FXDkaWyk314bDtQXKqi2LdV8nbGjj8&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none#";
 		//Split is used to get only the required CODE from the entire URL
 		String partialcode = url.split("code=")[1];
 		String code = partialcode.split("&scope")[0];
 		String print;
 		System.out.println(code);
 		
-	// By Default RestAssured performs encoding for special characters	
-	//EncodingEnabled is false because the code contains special characters which is not understood by restasuured until Explicity specified
+		// By Default RestAssured performs encoding for special characters	
+		//EncodingEnabled is false because the code contains special characters which is not understood by restasuured until Explicity specified
 		String response = given().urlEncodingEnabled(false)
 					.queryParams("code",code)
 					.queryParams("client_id", "692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com")
@@ -47,6 +50,16 @@ public class OAuth {
 					.when().get("https://rahulshettyacademy.com/getCourse.php").as(GetCourse.class);
 			        System.out.println(gc.getLinkedIn());
 			        System.out.println(gc.getInstructor());
+			        gc.getCourses().getApi().get(1).getCourseTitle();     //Course title at index 1
+			        
+			        //But since finding data by index are not ideal, need to iterate and find the required data
+			        //create a variable with data type as List because API has been declared as list in Courses class
+			       List<Api> apiCourses = gc.getCourses().getApi();
+			       for (int i=0;i<apiCourses.size();i++) {
+			    	   if(apiCourses.get(i).getCourseTitle().equalsIgnoreCase("SoapUI Webservices testing")) {
+			    		   System.out.println(apiCourses.get(i).getPrice());		    		   
+			    	   }
+			       }
 	}
 
 }

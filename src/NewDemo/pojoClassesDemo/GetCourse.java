@@ -6,7 +6,7 @@ public class GetCourse {
 	private String url;
 	private String services;
 	private String expertise;
-	private Courses courses;     //Return type is a class and not a string
+	private Courses courses;     //Return type is a class and not a string, Courses is the object of class courses
 	private String linkedIn;
 
 	//Since Courses had multiple JSON's inside it, need to create a separate class
