@@ -10,7 +10,8 @@ public class OAuth {
 	public static void main(String[] args) throws InterruptedException {
 	//Direct URL is taken because now the auth cannot be automated, since the 2020 google update
 		///String url ="https://rahulshettyacademy.com/getCourse.php?state=verifyfjdss&code=4%2FvAHBQUZU6o4WJ719NrGBzSELBFVBI9XbxvOtYpmYpeV47bFVExkaxWaF_XR14PHtTZf7ILSEeamywJKwo_BYs9M&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&session_state=0c32992f0d47e93d273922018ade42d1072b9d1f..a35c&prompt=none#";
-		String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F2AGuq4L59uOYQmE0_1ar-VGwwCo5uMLXzH3IDhRWiJo0kRjhDbcHsgoc0eA00BGFN-0gfmV3cokcP0UKtq_U9rE&scope=email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none#";
+		String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F2AEvFG5pdeJLMgYclP62ehLd46F2lHe32eXod2adPisl4ixsTV_IOXtI54-busAHbNOZS5qjKdgBnT0IOAHp2Oc&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none#";
+		
 		//Split is used to get only the required CODE from the entire URL
 		String partialcode = url.split("code=")[1];
 		String code = partialcode.split("&scope")[0];
@@ -45,7 +46,7 @@ public class OAuth {
 					GetCourse gc = given().queryParam("access_token", accessToken).expect().defaultParser(Parser.JSON)
 					.when().get("https://rahulshettyacademy.com/getCourse.php").as(GetCourse.class);
 			        System.out.println(gc.getLinkedIn());
-			        System.out.println(gc.getIntructor());
+			        System.out.println(gc.getInstructor());
 	}
 
 }

@@ -9,7 +9,6 @@ public class GetCourse {
 	private Courses courses;     //Return type is a class and not a string
 	private String linkedIn;
 
-	
 	//Since Courses had multiple JSON's inside it, need to create a separate class
 	//create setters/getters using alt+shift+s
 	
@@ -37,11 +36,11 @@ public class GetCourse {
 	public void setExpertise(String expertise) {
 		this.expertise = expertise;
 	}
-	public pojoClassesDemo.Courses getCourses() {
+	public Courses getCourses() {
 		return courses;
 	}
-	public void setCourses(pojoClassesDemo.Courses courses) {
-		courses = courses;
+	public void setCourses(Courses courses) {
+		this.courses = courses;
 	}
 	public String getLinkedIn() {
 		return linkedIn;
