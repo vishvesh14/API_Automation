@@ -5,7 +5,7 @@ import java.util.List;
 import com.sun.xml.bind.v2.runtime.Location;
 
 public class addPlace {
-	private Location location;
+	private SerializationPojoTest.Location location;
 	private int accuracy;
 	private String name;
 	private String phone_number;
@@ -14,11 +14,11 @@ public class addPlace {
 	private String website;
 	private String language;
 	
-	public Location getLocation() {
+	public SerializationPojoTest.Location getLocation() {
 		return location;
 	}
-	public void setLocation(Location location) {
-		this.location = location;
+	public void setLocation(SerializationPojoTest.Location l) {
+		this.location = l;
 	}
 	public int getAccuracy() {
 		return accuracy;
