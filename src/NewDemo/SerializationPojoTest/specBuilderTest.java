@@ -56,7 +56,7 @@ public class specBuilderTest {
 		
 		//use the response object and trigger the POST endpoint
 		Response response = res.when().post("/maps/api/place/add/json")
-		.then().spec(resp).extract().response();
+							.then().spec(resp).extract().response();
 		
 		String responseString = response.asString();
 		 System.out.println(responseString);
