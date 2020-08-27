@@ -19,7 +19,7 @@ public class specBuilderTest {
 
 	public static void main(String[] args) {
 		
-		RestAssured.baseURI = "https://rahulshettyacademy.com";
+		//RestAssured.baseURI = "https://rahulshettyacademy.com";
 		
 		addPlace p = new addPlace();   //created object for class Addplace
 		p.setAccuracy(50);
