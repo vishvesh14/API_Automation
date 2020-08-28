@@ -21,6 +21,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import resources.EndpointResources;
 import resources.TestDataBuild;
 import resources.Utils;
 
@@ -39,9 +40,11 @@ public class placeValidationStepDef extends Utils{
 	}
 	
 	@When("user calls {string} using the POST http request")
-	public void user_calls_using_the_POST_http_request(String string) {
+	public void user_calls_using_the_POST_http_request(String resource) {
+		EndpointResources resourceAPI = EndpointResources.valueOf(resource);
+		System.out.println(resourceAPI.getResource());
 		resp = new ResponseSpecBuilder().expectStatusCode(200).build(); //Response Spec Builder
-		response = res.when().post("/maps/api/place/add/json")
+		response = res.when().post(resourceAPI.getResource())
 				.then().spec(resp).extract().response();
 	}
 	

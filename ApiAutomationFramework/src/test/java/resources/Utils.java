@@ -18,6 +18,8 @@ public class Utils {
 	
 	public static RequestSpecification req; //Variable is set to static, so that everytime a new variable instance is not created during the entire testcase.
 	public io.restassured.specification.RequestSpecification RequestSpecification() throws IOException{
+		
+		//req is set to null, so that multiple data sets are printed in the log file, instead of overwriting the previous dataset
 		if(req==null) {
 		
 		//Need to add a object to printstream class to tell clearly where to log the output.

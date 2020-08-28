@@ -9,5 +9,5 @@ And "scope" in response body is "APP"
 
 Examples:
 		|name 			| address 			|language |
-		|Backyard house | 90, Main Street	|German	  |
-		|Front Grass House| 60, BackSide 	|Portuguese|	
+		|Backyard house | 90, Main Street	|Spanish  |
+		|Front Street   | 60, BackSide 	    |Hindi	  |	
