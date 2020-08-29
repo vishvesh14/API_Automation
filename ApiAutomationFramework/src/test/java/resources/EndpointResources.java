@@ -1,12 +1,14 @@
 package resources;
 
-//enum is a special class in java that consists of collection of constants and methods
+//enum is a special class in java that consists of collection of constants or methods
 //every value is separated with a comma and the end of collection is marked by a semi colon
 public enum EndpointResources {
 	
-	AddPlaceAPI("/maps/api/place/add/json");
+	AddPlaceAPI("/maps/api/place/add/json"),
+	GetPlaceAPI("/maps/api/place/get/json"),
+	DeletePlaceAPI("/maps/api/place/delete/json");
 	
-	private String resource;   //Initializing a local variable so that it can be returned in getResource()
+	private String resource;   //Initializing a global variable so that it can be returned in getResource()
 	//Creating a constructor
 	EndpointResources(String resource){
 		this.resource = resource;  //"This.resource" points to the current variable of the class,

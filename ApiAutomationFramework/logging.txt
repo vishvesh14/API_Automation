@@ -1,5 +1,5 @@
-Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
@@ -27,26 +27,18 @@ Body:
     "language": "Spanish"
 }
 HTTP/1.1 200 OK
-Date: Fri, 28 Aug 2020 03:03:02 GMT
+Date: Sat, 29 Aug 2020 02:42:04 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 194
+Content-Length: 0
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "status": "OK",
-    "place_id": "58ceabf46a854a339a153b3c3895bc76",
-    "scope": "APP",
-    "reference": "934969617be8a6233f38a151ca8ebad2934969617be8a6233f38a151ca8ebad2",
-    "id": "934969617be8a6233f38a151ca8ebad2"
-}
-Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Content-Type: application/json; charset=UTF-8
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
@@ -74,21 +66,13 @@ Body:
     "language": "Hindi"
 }
 HTTP/1.1 200 OK
-Date: Fri, 28 Aug 2020 03:03:03 GMT
+Date: Sat, 29 Aug 2020 02:42:04 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 194
+Content-Length: 0
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "status": "OK",
-    "place_id": "8054772437438624ea9f52328ab3fa8b",
-    "scope": "APP",
-    "reference": "25e60294259968d37bcfc2d72eb0e9f825e60294259968d37bcfc2d72eb0e9f8",
-    "id": "25e60294259968d37bcfc2d72eb0e9f8"
-}
+Content-Type: application/json; charset=UTF-8

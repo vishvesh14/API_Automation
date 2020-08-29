@@ -21,6 +21,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
+import junit.framework.Assert;
 import resources.EndpointResources;
 import resources.TestDataBuild;
 import resources.Utils;
@@ -39,14 +40,18 @@ public class placeValidationStepDef extends Utils{
 		.body(data.addPlacePayLoad(name, address, language));
 	}
 	
-	@When("user calls {string} using the POST http request")
-	public void user_calls_using_the_POST_http_request(String resource) {
+	@When("user calls {string} using the {string} http request")
+	public void user_calls_using_the_POST_http_request(String resource, String httpMethod) {
 		EndpointResources resourceAPI = EndpointResources.valueOf(resource);
 		System.out.println(resourceAPI.getResource());
-		resp = new ResponseSpecBuilder().expectStatusCode(200).build(); //Response Spec Builder
-		response = res.when().post(resourceAPI.getResource())
-				.then().spec(resp).extract().response();
-	}
+		resp = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build(); //Response Spec Builder
+		if(httpMethod.equalsIgnoreCase("POST")) {
+			response = res.when().post(resourceAPI.getResource());
+			}
+		else if(httpMethod.equalsIgnoreCase("GET"))
+			response = res.when().get(resourceAPI.getResource());
+		}
+			//.then().spec(resp).extract().response();
 	
 	@Then("The API call is succesful with status code {int}")
 	public void the_API_call_is_succesful_with_status_code(Integer int1) {
@@ -54,19 +59,15 @@ public class placeValidationStepDef extends Utils{
 	}
 	
 	@Then("{string} in response body is {int}")
-	public void in_response_body_is(String keyValue, Integer ExpectedValue) {
-		String responseString = response.asString();
-		System.out.println(responseString);
-		JsonPath js = new JsonPath(responseString);
-		assertEquals(js.get(keyValue).toString(),ExpectedValue);
-		System.out.println(keyValue);
-		System.out.println(ExpectedValue);
+	public void in_response_body_is(String keyValue, String ExpectedValue) {
+		assertEquals(getJsonPath(response,keyValue),ExpectedValue);
 		
 	}
 	
-	@And("{string} in response body is {string}")
-	public void in_response_body_is(String string, String string2) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
-	}
+
+	@Then("verify place_id created maps to {string} using {string}")
+	public void verify_place_id_created_maps_to_using(String string, String string2) throws IOException {
+		String place_id = getJsonPath(response,"place_id");
+		res = given().spec(RequestSpecification()).queryParam("place_id",place_id);
+}
 }
