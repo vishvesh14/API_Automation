@@ -33,5 +33,9 @@ public class TestDataBuild {
 		p.setLocation(l);
 		return p;  //returns the object of this class
 	}
+	
+	public String deletePlaceId(String place_id) {
+		return "{\r\n    \"place_id\": \""+place_id+"\"\r\n}";
+	}
 
 }
