@@ -9,6 +9,7 @@ public enum EndpointResources {
 	DeletePlaceAPI("/maps/api/place/delete/json");
 	
 	private String resource;   //Initializing a global variable so that it can be returned in getResource()
+	
 	//Creating a constructor
 	EndpointResources(String resource){
 		this.resource = resource;  //"This.resource" points to the current variable of the class,

@@ -44,7 +44,7 @@ public class placeValidationStepDef extends Utils{
 	@When("user calls {string} using the {string} http request")
 	public void user_calls_using_the_http_request(String resource, String httpMethod) {
 		EndpointResources resourceAPI = EndpointResources.valueOf(resource);
-		//System.out.println(resourceAPI.getResource());
+		System.out.println(resourceAPI.getResource());
 		resp = new ResponseSpecBuilder().expectStatusCode(200).expectContentType(ContentType.JSON).build(); //Response Spec Builder
 		if(httpMethod.equalsIgnoreCase("POST")) {
 			response = res.when().post(resourceAPI.getResource());
@@ -76,8 +76,7 @@ public class placeValidationStepDef extends Utils{
 	
 	@Given("DeletePlace payload")
 	public void deleteplace_payload() throws IOException {
-		res = given().spec(RequestSpecification()).body(data.deletePlaceId(place_id));
-	    
+		res = given().spec(RequestSpecification()).body(data.deletePlaceId(place_id)); 
 	}
 
 }
