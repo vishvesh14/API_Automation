@@ -35,6 +35,7 @@ public class specBuilderTest {
 		myList.add("shop");
 		p.setTypes(myList);
 		
+		
 		//Location is into another class, so need to create a object for Location class
 		Location l = new Location();
 		l.setLat(-38.383494);   //no quotes since data type is double
