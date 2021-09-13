@@ -18,7 +18,7 @@ public class JiraTest {
 		SessionFilter session = new SessionFilter();
 		
 //Login API
-		String response = given().relaxedHTTPSValidation().header("Content-Type","application/json") //relaxed Vaidation to skip https as sometimes restassured does not recognise https
+		String response = given().relaxedHTTPSValidation().header("Content-Type","application/json") //relaxed Validation to skip https as sometimes restassured does not recognise https
 		.body("{ \r\n" + 
 				"	\"username\": \"vishveshsavant\",\r\n" + 
 				"	\"password\": \"vishvesh1234\" \r\n" + 

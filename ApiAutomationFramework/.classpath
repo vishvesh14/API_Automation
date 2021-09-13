@@ -23,26 +23,17 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Vishvesh Savant/.m2/repository/io/cucumber/cucumber-core/5.5.0/cucumber-core-5.5.0.jar" sourcepath="C:/Users/Vishvesh Savant/.m2/repository/io/cucumber/cucumber-core/5.5.0/cucumber-core-5.5.0-sources.jar">
+	<classpathentry kind="src" path="/NewDemo"/>
+	<classpathentry kind="lib" path="C:/Users/vishvesh.sawant/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar" sourcepath="C:/Users/vishvesh.sawant/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0-sources.jar">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="io.cucumber"/>
-			<attribute name="maven.artifactId" value="cucumber-core"/>
-			<attribute name="maven.version" value="5.5.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Vishvesh Savant/.m2/repository/io/cucumber/cucumber-junit/5.6.0/cucumber-junit-5.6.0.jar" sourcepath="C:/Users/Vishvesh Savant/.m2/repository/io/cucumber/cucumber-junit/5.6.0/cucumber-junit-5.6.0-sources.jar">
-		<attributes>
 			<attribute name="test" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="io.cucumber"/>
-			<attribute name="maven.artifactId" value="cucumber-junit"/>
-			<attribute name="maven.version" value="5.6.0"/>
+			<attribute name="maven.groupId" value="io.rest-assured"/>
+			<attribute name="maven.artifactId" value="rest-assured"/>
+			<attribute name="maven.version" value="4.3.0"/>
 			<attribute name="maven.scope" value="test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="G:/Workplace/AutomationSetupFiles/APIAutomation/rest assured 4.3 dist/rest-assured-4.3.0.jar"/>
-	<classpathentry kind="src" path="/NewDemo"/>
+	<classpathentry kind="lib" path="D:/Softwares/New_Automation_Tools/AutomationRequirements/API jars/rest-assured-4.3.0-dist/rest-assured-4.3.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

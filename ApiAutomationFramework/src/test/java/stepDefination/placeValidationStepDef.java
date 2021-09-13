@@ -17,11 +17,9 @@ import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import junit.framework.Assert;
 import resources.EndpointResources;
 import resources.TestDataBuild;
 import resources.Utils;
@@ -37,8 +35,12 @@ public class placeValidationStepDef extends Utils{
 	@Given("Add Place Payload with {string} {string} {string}")
 	public void add_Place_Payload_with(String name, String address, String language) throws IOException {
 		//Given is split
-		res = given().spec(RequestSpecification())
+		res = given().log().all().spec(RequestSpecification())
 		.body(data.addPlacePayLoad(name, address, language));
+		//System.out.println(name);
+		//System.out.println(address);
+		//System.out.println(language);
+		//System.out.println(types);
 	}
 	
 	@When("user calls {string} using the {string} http request")

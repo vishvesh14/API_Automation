@@ -4,6 +4,7 @@ import java.util.List;
 
 public class addPlace {
 	private SerializationPojoTest.Location location;
+	//private List<String> location1;
 	private int accuracy;
 	private String name;
 	private String phone_number;

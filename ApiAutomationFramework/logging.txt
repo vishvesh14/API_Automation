@@ -16,18 +16,18 @@ Body:
         "lng": 33.427362
     },
     "accuracy": 50,
-    "name": "John",
+    "name": "Backyard house",
     "phone_number": "(+91) 983 893 3937",
-    "address": "Longwalk Road",
+    "address": "91, Main Street",
     "types": [
         "shoe park",
         "shop"
     ],
     "website": "http://google.com",
-    "language": "English"
+    "language": "Spanish"
 }
 HTTP/1.1 200 OK
-Date: Wed, 02 Sep 2020 01:35:01 GMT
+Date: Tue, 31 Aug 2021 06:25:07 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,17 +40,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "5153a8cd62275bdf81104fac08e7cf2d",
+    "place_id": "42c26eaa88e481f4b9242170409ef9bc",
     "scope": "APP",
-    "reference": "0a3ed667129a83422f8f9e185fe262a40a3ed667129a83422f8f9e185fe262a4",
-    "id": "0a3ed667129a83422f8f9e185fe262a4"
+    "reference": "b6db1cecaa3f2f8137c07896651d9b18b6db1cecaa3f2f8137c07896651d9b18",
+    "id": "b6db1cecaa3f2f8137c07896651d9b18"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=5153a8cd62275bdf81104fac08e7cf2d
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=42c26eaa88e481f4b9242170409ef9bc
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=5153a8cd62275bdf81104fac08e7cf2d
+				place_id=42c26eaa88e481f4b9242170409ef9bc
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -59,13 +59,13 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Wed, 02 Sep 2020 01:35:03 GMT
+Date: Tue, 31 Aug 2021 06:25:11 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
 Access-Control-Max-Age: 3600
 Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 232
+Content-Length: 244
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
@@ -76,12 +76,12 @@ Content-Type: application/json;charset=UTF-8
         "longitude": "33.427362"
     },
     "accuracy": "50",
-    "name": "John",
+    "name": "Backyard house",
     "phone_number": "(+91) 983 893 3937",
-    "address": "Longwalk Road",
+    "address": "91, Main Street",
     "types": "shoe park,shop",
     "website": "http://google.com",
-    "language": "English"
+    "language": "Spanish"
 }
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
@@ -96,10 +96,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "5153a8cd62275bdf81104fac08e7cf2d"
+    "place_id": "42c26eaa88e481f4b9242170409ef9bc"
 }
 HTTP/1.1 200 OK
-Date: Wed, 02 Sep 2020 01:35:04 GMT
+Date: Tue, 31 Aug 2021 06:25:18 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST

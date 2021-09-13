@@ -10,8 +10,8 @@ And "scope" in response body is "APP"
 And verify place_id created maps to "<name>" using "GetPlaceAPI"
 
 Examples:
-		|name 			| address 			|language |
-		|Backyard house | 91, Main Street	|Spanish  |
+		|name 			| address 			|language | 
+		|Backyard house | 91, Main Street	|Spanish  | 
 #		|Front Street   | 60, BackSide 	    |Hindi	  |	
 
 @DeletePlace @Regression
